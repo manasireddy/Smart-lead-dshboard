@@ -5,8 +5,8 @@ import axios, {
 
 const api: AxiosInstance =
   axios.create({
-    baseURL:
-      "http://localhost:5000/api",
+ baseURL:
+"https://smart-lead-dshboard.onrender.com/api",
   });
 
 api.interceptors.request.use(
